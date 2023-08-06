@@ -57,7 +57,7 @@ section.text-container {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-color: rgb(255, 253, 240);
+    background-color: rgb(255, 254, 247);
 }
 
 
@@ -95,7 +95,7 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    background-color: rgb(255, 253, 237, 0.35);
+    background-color: rgb(255, 254, 247, 0.4);
     backdrop-filter: blur(10px);
     z-index: 999;
 }
@@ -103,7 +103,7 @@ nav {
 nav .content {
     display: flex;
     align-items: center;
-    padding: 10px 0;
+    padding: 8px 0;
     justify-content: space-between;
 }
 
@@ -129,7 +129,7 @@ nav ul li a:target {
 
 nav img.logo {
     width: auto;
-    height: 40px;
+    height: 30px;
 }
 
 /* Social media buttons */
