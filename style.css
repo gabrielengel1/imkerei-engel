@@ -13,6 +13,10 @@
     overflow-y: auto;
 }
 
+a {
+    color: #676565;
+}
+
 .content {
     width: 800px;
     margin: auto;
