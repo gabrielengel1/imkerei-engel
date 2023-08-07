@@ -129,7 +129,7 @@ nav ul li a:target {
 
 nav img.logo {
     width: auto;
-    height: 30px;
+    height: auto;
 }
 
 /* Social media buttons */
