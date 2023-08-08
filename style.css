@@ -1,3 +1,11 @@
+:root {
+    --main-background-color: rgb(255, 254, 247);
+    --main-text-color: #676565;
+    --nav-color: rgb(255, 254, 247, 0.4);
+    --nav-text-color: #4b4b4b;
+    --nav-selected-text-color: rgba(255, 255, 255);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +16,9 @@
 
 .body {
     height: 100vh;
-    color: #676565;
+    color: var(--main-text-color);
     scroll-behavior: smooth;
     overflow-y: auto;
-}
-
-a {
-    color: #676565;
 }
 
 .content {
@@ -23,12 +27,31 @@ a {
     text-align: justify;
 }
 
+.content h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.content h3 {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.content p+h3 {
+    margin-top: 30px;
+}
+
+.content p+p {
+    margin-top: 5px;
+}
+
 .sub-content {
     display: flex;
     margin-bottom: 10px;
 }
 
-.image {
+.sub-content .image {
     flex: 0 0 20%;
     display: flex;
     justify-content: center;
@@ -36,20 +59,8 @@ a {
     margin: auto;
 }
 
-.image img {
+.sub-content .image img {
     width: 85px;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 25px;
-    font-weight: 600;
-}
-
-h3 {
-    margin-bottom: 5px;
-    margin-top: 15px;
-    font-weight: 400;
 }
 
 section.text-container {
@@ -57,10 +68,8 @@ section.text-container {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-color: rgb(255, 254, 247);
+    background-color: (--background-color);
 }
-
-
 
 section.text-container .container {
     left: 0;
@@ -95,7 +104,7 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    background-color: rgb(255, 254, 247, 0.4);
+    background-color: var(--nav-color);
     backdrop-filter: blur(10px);
     z-index: 999;
 }
@@ -124,7 +133,8 @@ nav ul li a {
 }
 
 nav ul li a:target {
-    color: rgba(255, 255, 255);
+    font-weight: bold;
+    color: var(--selected-nav-color);
 }
 
 nav img.logo {
@@ -132,23 +142,28 @@ nav img.logo {
     height: 30px;
 }
 
-/* Social media buttons */
 .social-media-buttons {
     flex: 0 0 20%;
     display: flex;
     justify-content: center;
-    /* Horizontally center the content */
     align-items: center;
-    /* Vertically center the content */
-    height: 100px;
-    /* Set a fixed height for vertical centering */
     margin: auto;
+    margin-top: 30px
 }
 
 .social-media-buttons img {
     width: 36px;
     margin: 5px;
     opacity: 0.6;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--main-text-color);
 }
 
 /* Screen transformation for mobile */
