@@ -50,6 +50,10 @@
     z-index: -100;
 }
 
+.hero-section h1 {
+    text-transform: none;
+}
+
 h1,
 h2,
 h3 {
