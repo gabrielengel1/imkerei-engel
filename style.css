@@ -228,7 +228,9 @@ nav img.logo {
 }
 
 .footer {
-    text-align: center;
+    padding-top: 60px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer a {
@@ -241,9 +243,10 @@ nav img.logo {
     color: var(--nav-selected-text-color);
 }
 
-.footer .legal a {
+.footer .legal {
     font-size: 14px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 /* Screen transformation for mobile */
