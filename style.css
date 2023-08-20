@@ -212,6 +212,14 @@ nav img.logo {
     height: 30px;
 }
 
+.legal nav ul li a {
+    color: black;
+}
+
+.legal nav ul li a:after {
+    background: black;
+}
+
 .social-media-buttons {
     flex: 0 0 20%;
     display: flex;
@@ -282,10 +290,6 @@ nav img.logo {
         justify-content: center;
         align-items: center;
         margin: auto;
-    }
-
-    .sub-content .image img {
-        width: 85px;
     }
 
     .content {
