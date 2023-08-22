@@ -307,7 +307,7 @@ nav img.logo {
     }
 
     section.video-container {
-        height: 40vh;
+        display: none;
     }
 
     .fixed-hero video {
