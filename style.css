@@ -132,7 +132,7 @@ section.text-container .container {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 70px 0;
+    padding: 60px 0;
 }
 
 section.video-container {
@@ -232,15 +232,16 @@ nav img.logo {
 .social-media-buttons img {
     width: 36px;
     margin: 5px;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .social-media-buttons img:hover {
     scale: 1.1;
+    opacity: 0.8;
 }
 
 .footer {
-    padding-top: 60px;
+    padding-bottom: 10px;
     align-items: center;
     justify-content: center;
 }
@@ -256,9 +257,10 @@ nav img.logo {
 }
 
 .footer .legal {
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     text-align: center;
+    padding-top: 30px;
 }
 
 .fixed-hero img {
